@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; box-sizing:border-box; outline:none; }
+a { color:inherit; text-decoration:none; }
+input { border: none; }
+ul { list-style: none; }
+
+#star {
+    width: 450px;
+    margin: 50px auto;
+    /* padding: 20px 30px 500px 30px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+}
+#star > h2 {
+    font-size: 28px;
+    /* text-align: center; */
+    padding: 20px;
+}
+#star > form {
+    display: flex;
+    height: 50px;
+    font-size: 14px;
+}
+#star > form > input {
+    flex: 1;
+    padding-left: 20px;
+    background: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+#star > form > button {
+    border: none;
+    background: none;
+    padding: 0 20px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+#star .starlist {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+#star .starlist > li {
+    display: flex;
+}
+#star .starlist > li > input {
+    flex: 1;
+    padding: 10px 20px;
+    background: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+#star .starlist > li > button {
+    border: none;
+    background: none;
+    padding: 0 20px;
+    cursor: pointer;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
+}
+#star .btn {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
