@@ -18,8 +18,9 @@ body {
 #star > h2 {
     font-size: 28px;
     padding: 25px 0 10px 15px;
-    background: rgb(128, 225, 30);
+    background: rgb(111, 221, 0);
     border-radius: 8px 8px 0 0;
+    color: #fff;
 }
 #star .hd{
     display: flex;
@@ -54,6 +55,37 @@ body {
     padding: 0 20px;
     cursor: pointer;
     background: rgb(128, 225, 30);
+    color: #fff;
+    font-size: 14px;
+}
+#star > form > button:hover {
+    background: rgb(189, 220, 158);
+}
+
+#star .itext {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+#star .itext > li {
+    display: flex;
+}
+#star .itext > li > input {
+    flex: 1;
+    padding: 10px 20px;
+    background: none;
+    border-bottom: 1px solid rgb(128, 225, 30);
+    background-color: #fff;
+}
+#star .itext > li > button {
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    background: rgb(128, 225, 30);
+    font-size: 14px;
+    color: #fff;
+}
+#star .itext > li > button:hover {
+    background: rgb(189, 220, 158);
 }
 
 #star .starlist {
@@ -63,30 +95,43 @@ body {
 #star .starlist > li {
     display: flex;
 }
-#star .starlist > li > input {
+#star .starlist > li > div {
     flex: 1;
     padding: 10px 20px;
     background: none;
     border-bottom: 1px solid rgb(128, 225, 30);
     background-color: #fff;
+    font-size: 13px;
 }
 #star .starlist > li > button {
     border: none;
-    background: none;
     padding: 0 20px;
     cursor: pointer;
     background: rgb(128, 225, 30);
+    font-size: 14px;
+    color: #fff;
 }
+#star .starlist > li > button:hover {
+    background: rgb(189, 220, 158);
+}
+
 #star .btn {
     text-align: center;
     margin-top: 10px;
-    padding: 5px;
+    padding: 5px 5px 10px 5px;
     border-top: 1px solid rgb(128, 225, 30);
     background: #fff;
     border-radius: 0 0 10px 10px;
 }
+#star .btn:hover {
+    background: rgb(189, 220, 158);
+}
 #star .btn > a {
     text-align: center;
     background: #fff;
-    padding: 5px 185px 5px 185px;
+    padding: 5px 185px 10px 185px;
+    border-radius: 0 0 10px 10px;
+}
+#star .btn > a:hover {
+    background: rgb(189, 220, 158);
 }
