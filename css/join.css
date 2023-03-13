@@ -66,6 +66,7 @@ body {
   padding: 20px 10px;
   /* font-weight: bold; */
   font-size: 20px;
+  color: #fff;
 }
 .joinPage .joinBox form .cf {
   margin-bottom: 10px;
@@ -128,4 +129,13 @@ body {
 }
 .joinPage .joinBox form .agree input {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 1020px) {
+  .row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
 }
