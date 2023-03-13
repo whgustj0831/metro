@@ -14,11 +14,10 @@
         gdata.push(obj)
         localStorage.gdata = JSON.stringify(gdata)
         usedata(gdata)
-        console.log('gdata',gdata)
     })
 
     function usedata(rdata){
-        $('#record div').remove()
+        $('#record .rec div').remove()
         let list = `<div class="cord">`
         rdata.map(function(value){
             list += `<a href="./trainInfo?statn_nm=${value.text}">${value.text}</a>`
