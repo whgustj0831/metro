@@ -29,7 +29,7 @@ body {
 }
 
 .joinPage .joinBox {
-  padding-top: 50px;
+  padding-top: 90px;
 }
 .joinPage .joinBox p {
   line-height: 1.5em;
@@ -49,7 +49,7 @@ body {
   height: 40px;
   border: none;
   background: #fff;
-  margin: 30px 10px;
+  margin: 70px 10px;
   border-radius: 8px;
   color: #000;
   font-size: 20px;
@@ -63,7 +63,7 @@ body {
 
 .joinPage .joinBox form h3 {
   font-size: 18px;
-  padding: 20px 10px;
+  padding: 30px 10px 20px 10px;
   /* font-weight: bold; */
   font-size: 20px;
   color: #fff;
@@ -115,9 +115,12 @@ body {
   padding: 10px;
 }
 
+.joinPage .joinBox form .hh {
+  margin-top: 20px;
+} 
 .joinPage .joinBox form .agree {
   background: #fff;
-  padding: 20px 20px 10px 20px;
+  padding: 30px 20px 10px 20px;
 }
 .joinPage .joinBox form .agree > div {
   background: #fff;
@@ -125,7 +128,7 @@ body {
   overflow-y: auto;
   line-height: 1.5;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .joinPage .joinBox form .agree input {
   margin-left: 10px;
