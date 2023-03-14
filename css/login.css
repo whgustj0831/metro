@@ -1,4 +1,12 @@
-@charset "utf-8";
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/77254_27169_036.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+}
 
 #login * {
   margin: 0;
@@ -12,15 +20,6 @@
 }
 #login input {
   border: none;
-}
-#login body {
-  height: 100vh;
-  overflow: hidden;
-  background-image: url(../img/77254_27169_036.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  overflow-y: scroll;
 }
 #login .loginbox {
   width: 500px;

@@ -400,7 +400,6 @@
 
     // 추가
     $('#star').on('click', '.addS',function(){
-        id++
         let aname = $(this).attr('data-statn')
         let obj = { id:id, text:aname }
         gdata.push(obj)
@@ -414,7 +413,7 @@
         let list = `<ul class="starlist">`
         rdata.map(function(value){
             list += `<li>`
-            list += `<div><a href="./trainInfo?statn_nm=${value.text}">${value.text}</a>`
+            list += `<div><a href="./page?=statn_nm${value.text}">${value.text}</a>`
             list += `</div>`
             list += `<button type="button">삭제</button></li>`
         })

@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>join</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/join.css">
+    <title>join</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -14,6 +17,50 @@
                 <form action="#none" method="post">
                     <fieldset>
                         <h3>기본정보</h3>
+                        <!-- <table>
+                            <colgroup>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th><label for="idbox">아이디</label></th>
+                                    <td>
+                                        <input type="text" id="idbox" name="idbox">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="pwbox">비밀번호</label></th>
+                                    <td>
+                                        <input type="password" id="pwbox" name="pwbox">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="pwboxok">비밀번호확인</label></th>
+                                    <td>
+                                        <input type="password" id="pwboxok">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="irum">이름</label></th>
+                                    <td>
+                                        <input type="text" id="irum" name="irum">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="hp">휴대전화</label></th>
+                                    <td>
+                                        <select name="hp" id="hp">
+                                            <option value="010">010</option>
+                                        </select>
+                                        -
+                                        <input type="text" id="hp1" name="hp1">
+                                        -
+                                        <input type="text" id="hp2" name="hp2">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table> -->
                         <ul>
                             <li class="cf">
                                 <label for="idbox" class="ooo">아이디</label>
@@ -46,16 +93,16 @@
                                         <option value="010">010</option>
                                     </select>
                                     -
-                                    <input type="text" id="hp1" name="hp1" placeholder="0000">
+                                    <input type="text" id="hp1" name="hp1">
                                     -
-                                    <input type="text" id="hp2" name="hp2" placeholder="0000">
+                                    <input type="text" id="hp2" name="hp2">
                                 </div>
                             </li>
                         </ul>
                     </fieldset>
                     <fieldset>
                         <legend>이용약관개인정보수집동의</legend>
-                        <h3 class="hh">이용약관 동의</h3>
+                        <h3>이용약관 동의</h3>
                         <div class="agree">
                             <div class="guide">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis expedita provident sint iure, fugit est aspernatur harum ipsum tenetur minus tempore, magni eveniet quibusdam magnam repellendus ea architecto culpa earum!
