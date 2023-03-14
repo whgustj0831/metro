@@ -6,19 +6,19 @@ input { border: none; }
 ul { list-style: none; }
 
 body {
-    background: rgba(127, 225, 30, 0.3);
+    background: rgba(30, 147, 225, 0.3);
 }
 #star {
     width: 450px;
     margin: 100px auto;
-    border: 1px solid rgb(128, 225, 30);
+    border: 1px solid rgb(30, 147, 225);
     border-radius: 10px;
     background: #fff;
 }
 #star > h2 {
     font-size: 28px;
     padding: 25px 0 10px 15px;
-    background: rgb(111, 221, 0);
+    background: rgb(30, 147, 225);
     border-radius: 8px 8px 0 0;
     color: #fff;
 }
@@ -44,7 +44,7 @@ body {
 #star > form > input {
     flex: 1;
     padding-left: 20px;
-    border: 1px solid rgb(128, 225, 30);
+    border: 1px solid rgb(30, 147, 225);
     border-left: none;
     border-right: none;
     font-size: 15px;
@@ -54,12 +54,12 @@ body {
     background: none;
     padding: 0 20px;
     cursor: pointer;
-    background: rgb(128, 225, 30);
+    background: rgb(30, 147, 225);
     color: #fff;
     font-size: 14px;
 }
 #star > form > button:hover {
-    background: rgb(189, 220, 158);
+    background: rgb(184, 207, 223);
 }
 
 #star .itext {
@@ -73,19 +73,19 @@ body {
     flex: 1;
     padding: 10px 20px;
     background: none;
-    border-bottom: 1px solid rgb(128, 225, 30);
+    border-bottom: 1px solid rgb(30, 147, 225);
     background-color: #fff;
 }
 #star .itext > li > button {
     border: none;
     padding: 0 20px;
     cursor: pointer;
-    background: rgb(128, 225, 30);
+    background: rgb(30, 147, 225);
     font-size: 14px;
     color: #fff;
 }
 #star .itext > li > button:hover {
-    background: rgb(189, 220, 158);
+    background: rgb(184, 207, 223);
 }
 
 #star .starlist {
@@ -98,7 +98,7 @@ body {
 #star .starlist > li > div {
     flex: 1;
     padding: 10px 20px;
-    border-bottom: 1px solid rgb(128, 225, 30);
+    border-bottom: 1px solid rgb(30, 147, 225);
     background-color: #fff;
     font-size: 13px;
 }
@@ -106,24 +106,24 @@ body {
     border: none;
     padding: 0 20px;
     cursor: pointer;
-    background: rgb(128, 225, 30);
+    background: rgb(30, 147, 225);
     font-size: 14px;
     color: #fff;
 }
 #star .starlist > li > button:hover {
-    background: rgb(189, 220, 158);
+    background: rgb(184, 207, 223);
 }
 
 #star .btn {
     text-align: center;
     margin-top: 10px;
     padding: 5px 5px 10px 5px;
-    border-top: 1px solid rgb(128, 225, 30);
+    border-top: 1px solid rgb(30, 147, 225);
     background: #fff;
     border-radius: 0 0 10px 10px;
 }
 #star .btn:hover {
-    background: rgb(189, 220, 158);
+    background: rgb(174, 203, 223);
 }
 #star .btn > a {
     text-align: center;
@@ -132,14 +132,14 @@ body {
     border-radius: 0 0 10px 10px;
 }
 #star .btn > a:hover {
-    background: rgb(189, 220, 158);
+    background: rgb(184, 207, 223);
 }
 
 @media screen and (max-width: 460px) {
     #star {
         width: 300px;
         margin: 100px auto;
-        border: 1px solid rgb(128, 225, 30);
+        border: 1px solid rgb(30, 147, 225);
         border-radius: 10px;
         background: #fff;
     }
