@@ -1,20 +1,20 @@
 (function($){
 
-    if (localStorage.gdata) {
-        gdata = JSON.parse(localStorage.gdata)
-        if(gdata){
-            id = gdata[gdata.length-1].id
+    if (localStorage.recentSearch) {
+        recentSearch = JSON.parse(localStorage.recentSearch)
+        if(recentSearch){
+            id = recentSearch[recentSearch.length-1].id
         }
-        usedata(gdata)
+        usedata(recentSearch)
     }
     
     $('#star').on('click', '.addS',function(){
         id++
         let aname = $(this).attr('data-statn')
         let obj = { id:id, text:aname }
-        gdata.push(obj)
-        localStorage.gdata = JSON.stringify(gdata)
-        usedata(gdata)
+        recentSearch.push(obj)
+        localStorage.recentSearch = JSON.stringify(recentSearch)
+        usedata(recentSearch)
     })
 
     function usedata(rdata){
