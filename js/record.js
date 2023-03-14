@@ -9,6 +9,7 @@
     }
     
     $('#star').on('click', '.addS',function(){
+        id++
         let aname = $(this).attr('data-statn')
         let obj = { id:id, text:aname }
         gdata.push(obj)
@@ -20,7 +21,9 @@
         $('#record .rec div').remove()
         let list = `<div class="cord">`
         rdata.map(function(value){
+            list += `<div>`
             list += `<a href="./trainInfo?statn_nm=${value.text}">${value.text}</a>`
+            list += `</div>`
         })
         list += `</div>`
         $('#record .re').before(list)

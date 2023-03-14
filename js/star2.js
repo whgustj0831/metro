@@ -400,6 +400,7 @@
 
     // 추가
     $('#star').on('click', '.addS',function(){
+        id++
         let aname = $(this).attr('data-statn')
         let obj = { id:id, text:aname }
         gdata.push(obj)
