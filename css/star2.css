@@ -98,7 +98,6 @@ body {
 #star .starlist > li > div {
     flex: 1;
     padding: 10px 20px;
-    background: none;
     border-bottom: 1px solid rgb(128, 225, 30);
     background-color: #fff;
     font-size: 13px;
@@ -134,4 +133,26 @@ body {
 }
 #star .btn > a:hover {
     background: rgb(189, 220, 158);
+}
+
+@media screen and (max-width: 460px) {
+    #star {
+        width: 300px;
+        margin: 100px auto;
+        border: 1px solid rgb(128, 225, 30);
+        border-radius: 10px;
+        background: #fff;
+    }
+    #star > form {
+        margin-top: 10px;
+        display: flex;
+        height: 40px;
+        font-size: 14px;
+    }
+    #star .btn > a {
+        text-align: center;
+        background: #fff;
+        padding: 5px 110px 10px 110px;
+        border-radius: 0 0 10px 10px;
+    }
 }
